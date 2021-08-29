@@ -10,7 +10,7 @@ import SwiftUI
 struct FormExample: View {
     var body: some View {
         Form {
-            Group {
+            Section {
                 Text("Hello World")
                 Text("Hello World")
                 Text("Hello World")
@@ -23,7 +23,7 @@ struct FormExample: View {
                 Text("Hello World")
             }
             
-            Group {
+            Section {
                 Text("Hello World")
                 Text("Hello World")
                 Text("Hello World")
