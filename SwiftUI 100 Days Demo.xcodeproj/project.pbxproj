@@ -14,6 +14,7 @@
 		E8FE436826DB2FA800E68A26 /* SwiftUI_100_Days_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE436726DB2FA800E68A26 /* SwiftUI_100_Days_DemoTests.swift */; };
 		E8FE437326DB2FA800E68A26 /* SwiftUI_100_Days_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE437226DB2FA800E68A26 /* SwiftUI_100_Days_DemoUITests.swift */; };
 		E8FE438126DB2FDE00E68A26 /* FormExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438026DB2FDE00E68A26 /* FormExample.swift */; };
+		E8FE438326DB365900E68A26 /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438226DB365900E68A26 /* NavigationViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E8FE437226DB2FA800E68A26 /* SwiftUI_100_Days_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_100_Days_DemoUITests.swift; sourceTree = "<group>"; };
 		E8FE437426DB2FA800E68A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8FE438026DB2FDE00E68A26 /* FormExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExample.swift; sourceTree = "<group>"; };
+		E8FE438226DB365900E68A26 /* NavigationViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E8FE435526DB2FA600E68A26 /* SwiftUI_100_Days_DemoApp.swift */,
 				E8FE435726DB2FA600E68A26 /* ContentView.swift */,
 				E8FE438026DB2FDE00E68A26 /* FormExample.swift */,
+				E8FE438226DB365900E68A26 /* NavigationViewExample.swift */,
 				E8FE435926DB2FA800E68A26 /* Assets.xcassets */,
 				E8FE435E26DB2FA800E68A26 /* Info.plist */,
 				E8FE435B26DB2FA800E68A26 /* Preview Content */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FE438126DB2FDE00E68A26 /* FormExample.swift in Sources */,
+				E8FE438326DB365900E68A26 /* NavigationViewExample.swift in Sources */,
 				E8FE435826DB2FA600E68A26 /* ContentView.swift in Sources */,
 				E8FE435626DB2FA600E68A26 /* SwiftUI_100_Days_DemoApp.swift in Sources */,
 			);
