@@ -11,7 +11,7 @@ struct NavigationViewExample: View {
     var body: some View {
         NavigationView {
             FormExample()
-                .navigationBarTitle(Text("SwiftUI"))
+                .navigationBarTitle(Text("SwiftUI"), displayMode: .inline)
         }
     }
 }
