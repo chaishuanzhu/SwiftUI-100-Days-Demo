@@ -18,6 +18,7 @@
 		E8FE438526DB388900E68A26 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438426DB388900E68A26 /* StateExample.swift */; };
 		E8FE438826DB3AA200E68A26 /* StateBindExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438726DB3AA200E68A26 /* StateBindExample.swift */; };
 		E8FE438A26DB3C7000E68A26 /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438926DB3C7000E68A26 /* ForEachExample.swift */; };
+		E8FE438C26DBA35700E68A26 /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438B26DBA35700E68A26 /* TextFieldExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E8FE438426DB388900E68A26 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
 		E8FE438726DB3AA200E68A26 /* StateBindExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindExample.swift; sourceTree = "<group>"; };
 		E8FE438926DB3C7000E68A26 /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
+		E8FE438B26DBA35700E68A26 /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				E8FE435526DB2FA600E68A26 /* SwiftUI_100_Days_DemoApp.swift */,
 				E8FE435726DB2FA600E68A26 /* ContentView.swift */,
+				E8FE438D26DBA35C00E68A26 /* Day2 */,
 				E8FE438626DB3A7F00E68A26 /* Day1 */,
 				E8FE435926DB2FA800E68A26 /* Assets.xcassets */,
 				E8FE435E26DB2FA800E68A26 /* Info.plist */,
@@ -151,6 +154,14 @@
 				E8FE438926DB3C7000E68A26 /* ForEachExample.swift */,
 			);
 			path = Day1;
+			sourceTree = "<group>";
+		};
+		E8FE438D26DBA35C00E68A26 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				E8FE438B26DBA35700E68A26 /* TextFieldExample.swift */,
+			);
+			path = Day2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 				E8FE438326DB365900E68A26 /* NavigationViewExample.swift in Sources */,
 				E8FE438A26DB3C7000E68A26 /* ForEachExample.swift in Sources */,
 				E8FE435826DB2FA600E68A26 /* ContentView.swift in Sources */,
+				E8FE438C26DBA35700E68A26 /* TextFieldExample.swift in Sources */,
 				E8FE435626DB2FA600E68A26 /* SwiftUI_100_Days_DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
