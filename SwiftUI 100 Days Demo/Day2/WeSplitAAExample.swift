@@ -1,5 +1,5 @@
 //
-//  TextFieldExample.swift
+//  WeSplitAAExample.swift
 //  SwiftUI 100 Days Demo
 //
 //  Created by FeiYu on 2021/8/29.
@@ -7,11 +7,24 @@
 
 import SwiftUI
 
-struct TextFieldExample: View {
+struct WeSplitAAExample: View {
     @State private var checkAmount = ""
     @State private var numberOfPeople = 2
     @State private var tipPercentage = 2
     let tipPercentages = [10, 15, 20, 25, 0]
+    
+    
+    var totalPerPersion: Double {
+        let peopleCount = Double(numberOfPeople + 2)
+        let tipSelection = Double(tipPercentages[tipPercentage])
+        let orderAmount = Double(checkAmount) ?? 0
+        
+        let tipValue = orderAmount / 100 * tipSelection
+        let grandTotal = orderAmount + tipValue
+        let amountPerPerson = grandTotal / peopleCount
+        return amountPerPerson
+    }
+    
     var body: some View {
         NavigationView {
             Form {
@@ -35,7 +48,7 @@ struct TextFieldExample: View {
                 }
                 
                 Section {
-                    Text("$\(checkAmount)")
+                    Text("$\(totalPerPersion, specifier: "%.2f")")
                 }
             }
             .navigationBarTitle("WeSplit")
@@ -43,8 +56,8 @@ struct TextFieldExample: View {
     }
 }
 
-struct TextFieldExample_Previews: PreviewProvider {
+struct WeSplitAAExample_Previews: PreviewProvider {
     static var previews: some View {
-        TextFieldExample()
+        WeSplitAAExample()
     }
 }
