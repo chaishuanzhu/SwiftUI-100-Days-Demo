@@ -16,6 +16,7 @@
 		E8FE438126DB2FDE00E68A26 /* FormExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438026DB2FDE00E68A26 /* FormExample.swift */; };
 		E8FE438326DB365900E68A26 /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438226DB365900E68A26 /* NavigationViewExample.swift */; };
 		E8FE438526DB388900E68A26 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438426DB388900E68A26 /* StateExample.swift */; };
+		E8FE438826DB3AA200E68A26 /* StateBindExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438726DB3AA200E68A26 /* StateBindExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E8FE438026DB2FDE00E68A26 /* FormExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExample.swift; sourceTree = "<group>"; };
 		E8FE438226DB365900E68A26 /* NavigationViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExample.swift; sourceTree = "<group>"; };
 		E8FE438426DB388900E68A26 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
+		E8FE438726DB3AA200E68A26 /* StateBindExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,7 @@
 			children = (
 				E8FE435526DB2FA600E68A26 /* SwiftUI_100_Days_DemoApp.swift */,
 				E8FE435726DB2FA600E68A26 /* ContentView.swift */,
-				E8FE438026DB2FDE00E68A26 /* FormExample.swift */,
-				E8FE438226DB365900E68A26 /* NavigationViewExample.swift */,
-				E8FE438426DB388900E68A26 /* StateExample.swift */,
+				E8FE438626DB3A7F00E68A26 /* Day1 */,
 				E8FE435926DB2FA800E68A26 /* Assets.xcassets */,
 				E8FE435E26DB2FA800E68A26 /* Info.plist */,
 				E8FE435B26DB2FA800E68A26 /* Preview Content */,
@@ -137,6 +137,17 @@
 				E8FE437426DB2FA800E68A26 /* Info.plist */,
 			);
 			path = "SwiftUI 100 Days DemoUITests";
+			sourceTree = "<group>";
+		};
+		E8FE438626DB3A7F00E68A26 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				E8FE438026DB2FDE00E68A26 /* FormExample.swift */,
+				E8FE438226DB365900E68A26 /* NavigationViewExample.swift */,
+				E8FE438426DB388900E68A26 /* StateExample.swift */,
+				E8FE438726DB3AA200E68A26 /* StateBindExample.swift */,
+			);
+			path = Day1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FE438526DB388900E68A26 /* StateExample.swift in Sources */,
+				E8FE438826DB3AA200E68A26 /* StateBindExample.swift in Sources */,
 				E8FE438126DB2FDE00E68A26 /* FormExample.swift in Sources */,
 				E8FE438326DB365900E68A26 /* NavigationViewExample.swift in Sources */,
 				E8FE435826DB2FA600E68A26 /* ContentView.swift in Sources */,
