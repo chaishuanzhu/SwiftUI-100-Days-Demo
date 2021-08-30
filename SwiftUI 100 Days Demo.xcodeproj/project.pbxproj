@@ -19,6 +19,7 @@
 		E8FE438826DB3AA200E68A26 /* StateBindExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438726DB3AA200E68A26 /* StateBindExample.swift */; };
 		E8FE438A26DB3C7000E68A26 /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438926DB3C7000E68A26 /* ForEachExample.swift */; };
 		E8FE438C26DBA35700E68A26 /* WeSplitAAExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438B26DBA35700E68A26 /* WeSplitAAExample.swift */; };
+		E8FE438F26DBB8C200E68A26 /* TimeConversionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE438E26DBB8C100E68A26 /* TimeConversionExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		E8FE438726DB3AA200E68A26 /* StateBindExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindExample.swift; sourceTree = "<group>"; };
 		E8FE438926DB3C7000E68A26 /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
 		E8FE438B26DBA35700E68A26 /* WeSplitAAExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitAAExample.swift; sourceTree = "<group>"; };
+		E8FE438E26DBB8C100E68A26 /* TimeConversionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversionExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				E8FE435526DB2FA600E68A26 /* SwiftUI_100_Days_DemoApp.swift */,
 				E8FE435726DB2FA600E68A26 /* ContentView.swift */,
+				E8FE439026DD146100E68A26 /* Day19 */,
 				E8FE438D26DBA35C00E68A26 /* Day2 */,
 				E8FE438626DB3A7F00E68A26 /* Day1 */,
 				E8FE435926DB2FA800E68A26 /* Assets.xcassets */,
@@ -162,6 +165,14 @@
 				E8FE438B26DBA35700E68A26 /* WeSplitAAExample.swift */,
 			);
 			path = Day2;
+			sourceTree = "<group>";
+		};
+		E8FE439026DD146100E68A26 /* Day19 */ = {
+			isa = PBXGroup;
+			children = (
+				E8FE438E26DBB8C100E68A26 /* TimeConversionExample.swift */,
+			);
+			path = Day19;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +307,7 @@
 				E8FE438526DB388900E68A26 /* StateExample.swift in Sources */,
 				E8FE438826DB3AA200E68A26 /* StateBindExample.swift in Sources */,
 				E8FE438126DB2FDE00E68A26 /* FormExample.swift in Sources */,
+				E8FE438F26DBB8C200E68A26 /* TimeConversionExample.swift in Sources */,
 				E8FE438326DB365900E68A26 /* NavigationViewExample.swift in Sources */,
 				E8FE438A26DB3C7000E68A26 /* ForEachExample.swift in Sources */,
 				E8FE435826DB2FA600E68A26 /* ContentView.swift in Sources */,

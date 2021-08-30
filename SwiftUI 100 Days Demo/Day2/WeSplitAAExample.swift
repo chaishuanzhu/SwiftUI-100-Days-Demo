@@ -47,7 +47,7 @@ struct WeSplitAAExample: View {
                     .pickerStyle(SegmentedPickerStyle())
                 }
                 
-                Section {
+                Section(header: Text("Amount per person")) {
                     Text("$\(totalPerPersion, specifier: "%.2f")")
                 }
             }
